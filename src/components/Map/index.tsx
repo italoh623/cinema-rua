@@ -13,7 +13,7 @@ import "leaflet/dist/leaflet.css";
 import styles from "./styles.module.css";
 
 import pernambucoData from '@/data/pernambuco.json';
-import { markers } from "@/data/markerList.tsx";
+import { markers } from "@/data/markerList";
 import PopupMarker, { PopupMarkerProps } from "./PopupMarker";
 
 const position: LatLngTuple = [-8.38, -38]

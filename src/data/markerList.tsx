@@ -56,7 +56,7 @@ export const markers: PopupMarkerProps[] = [
     description: "O Cine Duarte Coelho de Olinda foi inaugurado no dia 16 de outubro de 1942, com a exibição do filme “Uma noite no Rio”, estrelado por Carmem Miranda. O prédio, que hoje se encontra fechado, está localizado na Avenida Joaquim Nabuco, em frente à Praça Cel. João Lapa, próximo ao Varadouro. Essa sala de exibição teve seus momentos áureos durante as décadas de 1950 e 1960, fechando suas portas na década de 1980."
   },
   {
-    position: [-8.0620132,-34.8873106],
+    position: [-8.061976,-34.8848838],
     type: "EM FUNCIONAMENTO",
     title: "TEATRO DO PARQUE",
     description: "Este é um dos únicos teatros-jardim ainda existentes no Brasil. Foi inaugurado em 1915 como uma grande inovação da arquitetura do Recife. “A divina dama” deu início ao cinema sonoro em Recife, no dia 24 de março de 1930. Em 1973, já após restauração e revogação de decreto que suspendeu o cinema por quase 15 anos, o Teatro do Parque passou a ser o primeiro Cinema Educativo Permanente do Brasil. O espaço passou por diversas reformas. Em 2010 fecha novamente para reformas, desta vez por causa de graves problemas. A reforma, iniciada em 2013, chegou ao fim em novembro de 2020, trazendo restauro de toda a estrutura predial e dos elementos decorativos, devolvendo as características do projeto arquitetônico original de 1929."
@@ -68,25 +68,25 @@ export const markers: PopupMarkerProps[] = [
     description: "Ícone do audiovisual e das artes cênicas no interior de Pernambuco, o Theatro Cinema Guarany (hoje também conhecido como Cine-teatro Guarany), localizado na cidade de Triunfo, é uma das principais atrações turísticas do Sertão pernambucano. Construído em 1922, é uma edificação de grande porte que se destaca no conjunto urbano da cidade. O Cine-tatro Guarany é sede do Festival de Cinema de Triunfo, realizado pelo Governo de Pernambuco, por meio da Secult-PE e Fundarpe."
   },
   {
-    position: [-8.0592905,-34.9184292],
+    position: [-8.0593122,-34.8999753],
     type: "EM FUNCIONAMENTO",
     title: "CINEMA DA FUNDAÇÃO - DERBY",
     description: "Há mais de 25 anos, o Cinema da Fundação é um dos espaços favoritos para quem ama a arte cinematográfica. Considerado um dos mais bem equipados do Estado, dispõe de três salas: a do Museu, em Casa Forte, a do Derby e a do Porto, no Bairro do Recife. Oferece conforto e acessibilidade, com 166 poltronas no Museu e 160 no Derby, assentos para obesos, pessoas com mobilidade reduzida e espaço para cadeirantes. As salas possuem equipamentos de ponta de exibição cinematográfica, com tecnologia de projeção digital DCP (projetor Barco 4K 3D) e distribuição de som Dolby Digital 7.1. Com uma média de quatro sessões diárias, os cinemas funcionam de terça a domingo, exibindo filmes nacionais e internacionais por um preço acessível."
   },
   {
-    position: [-8.030413,-34.9283608],
+    position: [-8.0302995,-34.9257833],
     type: "EM FUNCIONAMENTO",
     title: "CINEMA DA FUNDAÇÃO - MUSEU",
     description: "Há mais de 25 anos, o Cinema da Fundação é um dos espaços favoritos para quem ama a arte cinematográfica. Considerado um dos mais bem equipados do Estado, dispõe de três salas: a do Museu, em Casa Forte, a do Derby e a do Porto, no Bairro do Recife. Oferece conforto e acessibilidade, com 166 poltronas no Museu e 160 no Derby, assentos para obesos, pessoas com mobilidade reduzida e espaço para cadeirantes. As salas possuem equipamentos de ponta de exibição cinematográfica, com tecnologia de projeção digital DCP (projetor Barco 4K 3D) e distribuição de som Dolby Digital 7.1. Com uma média de quatro sessões diárias, os cinemas funcionam de terça a domingo, exibindo filmes nacionais e internacionais por um preço acessível."
   },
   {
-    position: [-8.0631065,-34.8923776],
+    position: [-8.063147,-34.8740128],
     type: "EM FUNCIONAMENTO",
     title: "CINEMA DA FUNDAÇÃO - PORTO",
     description: "Há mais de 25 anos, o Cinema da Fundação é um dos espaços favoritos para quem ama a arte cinematográfica. Considerado um dos mais bem equipados do Estado, dispõe de três salas: a do Museu, em Casa Forte, a do Derby e a do Porto, no Bairro do Recife. Oferece conforto e acessibilidade, com 166 poltronas no Museu e 160 no Derby, assentos para obesos, pessoas com mobilidade reduzida e espaço para cadeirantes. As salas possuem equipamentos de ponta de exibição cinematográfica, com tecnologia de projeção digital DCP (projetor Barco 4K 3D) e distribuição de som Dolby Digital 7.1. Com uma média de quatro sessões diárias, os cinemas funcionam de terça a domingo, exibindo filmes nacionais e internacionais por um preço acessível."
   },
   {
-    position: [-8.0622485,-34.884509],
+    position: [-8.0621966,-34.8820603],
     type: "TEMPORARIAMENTE FECHADO",
     title: "SÃO LUIZ",
     description: "Inaugurado no dia 6 de setembro de 1952 e situado às margens do Rio Capibaribe, na cabeceira da mais moderna ponte da cidade à época, a Ponte Duarte Coelho, o São Luiz tornou-se um dos mais emblemáticos cinemas do Recife, prezando por essa arte em sua concepção clássica, com exibição em cine-teatro. Hoje o Cinema São Luiz é o de mais rica concepção artística e arquitetônica do Recife e um dos últimos cinemas de rua do Brasil. Em 2008 o prédio foi tombado como monumento histórico pelo Governo do Estado que, por meio da Fundarpe, trouxe de volta ao público o tradicional Cinema São Luiz, revitalizado e sem os vícios da mídia cinematográfica.  Em julho de 2022, o São Luiz foi fechado para a implantação de um novo sistema de refrigeração, correção de problemas de vazamento de cobertura e redimensionamento das suas instalações elétricas. Após chuvas torrenciais ocorridas no Recife em fevereiro de 2023, o equipamento precisou ser totalmente interditado por medida de segurança."
