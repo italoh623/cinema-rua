@@ -7,6 +7,7 @@ import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 
 import styles from "./page.module.css";
+import SessionAppreciation from "@/components/SessionAppreciation";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Menu />
         <Carousel />
         <SessionImportance />
+        <SessionAppreciation />
         <Map />
       </main>
       <Footer />
