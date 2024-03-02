@@ -79,7 +79,7 @@ export default function PopupMarker({
 
           <main className={styles.popupText}>
             <h1 className={`${styles.popupTitle} ${selectPopupTitleClass(type)}`}>{title}</h1>
-            <text>{description}</text>
+            <p>{description}</p>
           </main>
         </section>
       </Popup>

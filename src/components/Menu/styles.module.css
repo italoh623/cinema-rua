@@ -41,6 +41,7 @@
   font-size: 0.9375rem;
   text-align: center;
   color: #F3E8D5;
+  font-family: var(--sometypeMono-font);
   
   background-color: transparent;
   border: 0;
