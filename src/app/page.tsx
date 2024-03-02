@@ -1,13 +1,13 @@
 import React from "react";
 
-import Head from "next/head";
-import { Sometype_Mono } from "next/font/google";
-
-import styles from "./page.module.css";
 import Map from "@/components/Map";
 import Menu from "@/components/Menu";
+import SessionImportance from "@/components/SessionImportance";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
+
+import styles from "./page.module.css";
+
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
       <main>
         <Menu />
         <Carousel />
+        <SessionImportance />
         <Map />
-        <h1>asdasd</h1>
       </main>
       <Footer />
     </div>
