@@ -13,7 +13,7 @@
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
 
-  font-family: var(--font-sometype-mono);
+  font-family: var(--sometypeMono-font);
   font-weight: 700;
   font-size: 1rem;
   line-height: 0.75rem;
@@ -23,7 +23,7 @@
 .popupTitle {
   margin-bottom: 16px;
 
-  font-family: var(--font-sometype-mono);
+  font-family: var(--favela-font);
   font-weight: 400;
   font-size: 1.25rem;
   /* line-height: 0.75rem; */
@@ -37,7 +37,7 @@
 
   border-radius: 44px;
 
-  font-family: var(--font-sometype-mono);
+  font-family: var(--sometypeMono-font);
   font-size: 0.75rem;
   color: var(--black-900);
 

@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Sometype_Mono } from "next/font/google";
+import { sometypeMono, favela } from "@/font/font";
 import "./globals.css";
-
-const mainFontFamily = Sometype_Mono({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-  variable: '--font-sometype-mono'
-})
 
 export const metadata: Metadata = {
   title: "Nome da Página",
@@ -20,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={mainFontFamily.className}>{children}</body>
+      <body className={`${sometypeMono.variable} ${favela.variable}`}>{children}</body>
     </html>
   );
 }
