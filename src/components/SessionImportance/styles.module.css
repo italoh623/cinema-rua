@@ -1,0 +1,91 @@
+.container {
+  z-index: 1;
+  position: relative;
+  top: -50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 80px;
+
+  background-color: #F3E8D5;
+  padding: 50px 60px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.title {
+  font-family: var(--favela-font);
+  color: #2F2012;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.author {
+  margin-top: 70px;
+}
+
+.author h1{
+  font-size: 4rem;
+  font-family: var(--favela-font);
+  font-weight: 400;
+  color: #2F2012;
+}
+
+.author h2{
+  font-size: 3rem;
+  font-family: var(--favela-font);
+  font-weight: 400;
+  color: #2F2012;
+}
+
+.author h4{
+  font-size: 1rem;
+  font-family: var(--sometypeMono-font);
+  font-weight: 700;
+  color: #2F2012;
+}
+
+
+.report {
+  margin-top: 50px;
+}
+
+.report p{
+  margin-bottom: 25px;
+
+  font-size: 2.25rem;
+  font-family: var(--sometypeMono-font);
+  font-weight: 400;
+  text-align: justify;
+  color: #2F2012;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.menu > li {
+  list-style-type: none;
+  margin-left: 16px;
+}
+
+.menu > li > button {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  text-align: center;
+  color: #F3E8D5;
+  font-family: var(--sometypeMono-font);
+  
+  background-color: transparent;
+  border: 0;
+}
