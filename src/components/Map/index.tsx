@@ -25,9 +25,9 @@ export default function Map() {
     <MapContainer 
       center={position} 
       zoom={8} 
-      // scrollWheelZoom={false}
-      // dragging={false}
-      // doubleClickZoom={false}
+      scrollWheelZoom={false}
+      dragging={false}
+      doubleClickZoom={false}
       style={{ height: '100%', width: '100%' }}
     >
       <TileLayer
