@@ -7,7 +7,7 @@ export default function SessionAppreciation() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <img className={styles.image} src="/images/time-line.svg" alt="" />
+        <img className={styles.image} src="./images/time-line.svg" alt="" />
 
         <section className={styles.report}>
           <p>Nas décadas seguintes, de uma forma geral, houve uma recuperação do mercado exibidor, com salas localizadas em shoppings, locais de maior renda. Mesmo nesse cenário diferente, o cinema de rua resistiu às mudanças comportamentais.</p>
@@ -18,7 +18,7 @@ export default function SessionAppreciation() {
         </section>
 
         <div className={styles.photo}>
-          <img src="/images/carousel/carousel-2.png" alt="" />
+          <img src="./images/carousel/carousel-2.png" alt="" />
           <figcaption>Foto: Rafael Bandeira/LeiaJá Imagens/Arquivo</figcaption>
         </div>
 
@@ -42,7 +42,7 @@ export default function SessionAppreciation() {
 
 
         <section className={styles.reportImage}>
-          <img src="/images/cinema-moderno.svg" alt="" />
+          <img src="./images/cinema-moderno.svg" alt="" />
           <p>Foi nesse contexto que os primeiros cinemas de bairro surgiram em Recife. O Cinema do Pina, o Glória, o Moderno - este último inicialmente construído como teatro e transformado em cinema em 1931 - e tantos outros se tornaram não apenas locais de entretenimento, mas também espaços de encontro e intercâmbio cultural. Essas salas eram locais de exibição de filmes e também de celebração da diversidade cultural de Pernambuco e do Brasil, conectando as comunidades através das narrativas projetadas nas telas.</p>
         </section>
 
