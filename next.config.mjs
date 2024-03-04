@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/cinema-rua",
+  // basePath: "/cinema-rua",
   output: "export"
 };
 
