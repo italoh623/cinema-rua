@@ -110,3 +110,13 @@ a {
     color-scheme: dark;
   }
 }
+
+.leaflet-popup-content-wrapper {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #FFFBF3 !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) !important;
+}
