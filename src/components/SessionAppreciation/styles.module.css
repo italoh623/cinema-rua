@@ -1,13 +1,11 @@
 .container {
   position: relative;
-  /* top: -150px; */
+  top: -150px;
   
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  border-radius: 80px;
 
   background-color: #FFFBF3;
   padding: 50px 100px;
@@ -21,7 +19,7 @@
 .image {
   z-index: 1;
   position: relative;
-  top: -150px;
+  /* top: -150px; */
   width: 100%;
 }
 
