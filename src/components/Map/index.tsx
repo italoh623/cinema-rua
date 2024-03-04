@@ -17,6 +17,7 @@ import { markers } from "@/data/markerList";
 import PopupMarker, { PopupMarkerProps } from "./PopupMarker";
 
 const position: LatLngTuple = [-8.38, -38]
+// @ts-ignore
 const pernambucoGeoJson: GeoJsonObject = pernambucoData;
 
 export default function Map() {
@@ -36,7 +37,7 @@ export default function Map() {
         url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
       />
       <GeoJSON data={pernambucoGeoJson} style={() => ({
-        color: '#9B1915',
+        color: '#2F2012',
         weight: 3,
         fillOpacity: 0
       })} />
