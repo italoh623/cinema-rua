@@ -2,12 +2,12 @@
 
 import { useRef } from "react";
 
-import { LatLngTuple } from "leaflet";
+import { LatLngTuple, Map as LeafletMap} from "leaflet";
 import { 
   MapContainer, 
   TileLayer, 
-  GeoJSON,
-} from 'react-leaflet';
+  GeoJSON
+} from "react-leaflet";
 
 import { GeoJsonObject } from 'geojson';
 
@@ -24,7 +24,7 @@ const pernambucoGeoJson: GeoJsonObject = pernambucoData;
 
 export default function Map() {
 
-  const mapRef = useRef<MapContainer>(null);
+  const mapRef = useRef<LeafletMap>(null);
 
   const handleClosePopup = (position: LatLngTuple) => {
       // Obtenha a referência ao componente do mapa
@@ -36,7 +36,7 @@ export default function Map() {
           map.panTo(position);
         }, 300); 
         
-        map.setZoom(8, true);
+        map.setZoom(8, { animate: true });
       }
     };
 
