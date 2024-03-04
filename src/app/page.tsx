@@ -13,6 +13,7 @@ import Footer from "@/components/Footer";
 
 import styles from "./page.module.css";
 import SessionAppreciation from "@/components/SessionAppreciation";
+import SessionWhy from "@/components/SessionWhy";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Carousel />
         <SessionImportance />
         <SessionAppreciation />
+        <SessionWhy />
         <Map />
       </main>
       <Footer />
