@@ -4,9 +4,7 @@ import { LatLngTuple, Icon } from "leaflet";
 import {
   Marker,
   Popup,
-  MarkerProps,
-  Pane,
-  Circle
+  MarkerProps
 } from 'react-leaflet';
 
 import "leaflet/dist/leaflet.css";
@@ -16,6 +14,7 @@ export interface PopupMarkerProps extends MarkerProps {
   type: "TEMPORARIAMENTE FECHADO" | "SEM FUNCIONAMENTO" | "EM FUNCIONAMENTO";
   title: string;
   description: string;
+  onClose: () => void;
 }
 
 function selectIcon(type: PopupMarkerProps['type']): string {
@@ -61,7 +60,8 @@ export default function PopupMarker({
   position, 
   type, 
   title,
-  description, 
+  description,
+  onClose,
   ...rest 
 }: PopupMarkerProps) {
   const customIcon = new Icon({
@@ -70,11 +70,16 @@ export default function PopupMarker({
   })
 
   return (
-    <Marker position={position} icon={customIcon} {...rest} >
+    <Marker 
+      eventHandlers={{ popupclose: onClose }} 
+      position={position} 
+      icon={customIcon} 
+      {...rest} 
+    >
       <Popup className={styles.popup} closeButton={false} pane="tooltipPane">
         <section >
           <div className={`${styles.popupType} ${selectTypeClass(type)}`}>
-            <text>{type}</text>
+            <p>{type}</p>
           </div>
 
           <main className={styles.popupText}>
