@@ -1,0 +1,81 @@
+.popup {
+  background-color: transparent;
+}
+
+.popupType {
+  display: flex;
+  width: fit-content;
+
+  padding: 16px 8px;
+  padding-bottom: 6px;
+  margin-left: 30px;
+
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+
+  font-family: var(--sometypeMono-font);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 0.75rem;
+  color: #F3E8D5;
+}
+
+.popupTitle {
+  margin-bottom: 16px;
+
+  font-family: var(--favela-font);
+  font-weight: 400;
+  font-size: 1.25rem;
+  /* line-height: 0.75rem; */
+  /* color: #9B1915; */
+}
+
+.popupText {
+  background-color: #FFFBF3;
+  padding: 20px 35px;
+  margin: 0px;
+
+  border-radius: 44px;
+
+  font-family: var(--sometypeMono-font);
+  font-size: 0.75rem;
+  color: var(--black-900);
+  font-weight: 500;
+  text-align: justify;
+
+  /* Efeito de elevação */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); /* elevation = 4.dp */
+  /* Cor ambiente */
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25)); /* ambientColor = Color(0x40000000) */
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0px;
+}
+
+.popupTypeClosed {
+  background-color: #F3E8D5;
+  color: #2F2012;
+}
+
+.popupTypeInOperation {
+  background-color: #272C61;
+  color: #F3E8D5;
+}
+
+.popupTypeNotWorking {
+  background-color: #9B1915;
+  color: #F3E8D5;
+}
+
+.popupTitleClosed {
+  color: #2F2012;
+}
+
+.popupTitleInOperation {
+  color: #272C61;
+}
+
+.popupTitleNotWorking {
+  color: #9B1915;
+}
