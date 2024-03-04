@@ -8,7 +8,7 @@ export default function SessionImportance() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <h1 className={styles.title}>OCUPAÇÃO DO ESPAÇO PÚBLICO PELA ÓTICA DO CINEMA EM RECIFE - CULTURA É RESISTÊNCIA!</h1>
-        <img className={styles.image} src="/images/cinema.svg" alt="" />
+        <img className={styles.image} src="./images/cinema.svg" alt="" />
 
         <section className={styles.author}>
           <h1>CINEMA DE RUA</h1>

@@ -21,11 +21,11 @@ export interface PopupMarkerProps extends MarkerProps {
 function selectIcon(type: PopupMarkerProps['type']): string {
   switch (type) {
     case "TEMPORARIAMENTE FECHADO":
-      return "/images/map-marker-temporarily-closed.png"; 
+      return "./images/map-marker-temporarily-closed.png"; 
     case "SEM FUNCIONAMENTO":
-      return "/images/map-marker-not-working.png"; 
+      return "./images/map-marker-not-working.png"; 
     case "EM FUNCIONAMENTO":
-      return "/images/map-marker-in-operation.png"; 
+      return "./images/map-marker-in-operation.png"; 
     default:
       throw new Error("Tipo de marcador inválido.");
   }
