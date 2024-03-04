@@ -14,7 +14,7 @@ export interface PopupMarkerProps extends MarkerProps {
   type: "TEMPORARIAMENTE FECHADO" | "SEM FUNCIONAMENTO" | "EM FUNCIONAMENTO";
   title: string;
   description: string;
-  onClose: () => void;
+  onClose?: () => void;
 }
 
 function selectIcon(type: PopupMarkerProps['type']): string {

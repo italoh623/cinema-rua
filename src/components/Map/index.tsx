@@ -16,7 +16,7 @@ import styles from "./styles.module.css";
 
 import pernambucoData from '@/data/pernambuco.json';
 import { markers } from "@/data/markerList";
-import PopupMarker, { PopupMarkerProps } from "./PopupMarker";
+import PopupMarker from "./PopupMarker";
 
 const position: LatLngTuple = [-8.38, -38]
 // @ts-ignore
@@ -27,10 +27,8 @@ export default function Map() {
   const mapRef = useRef<LeafletMap>(null);
 
   const handleClosePopup = (position: LatLngTuple) => {
-      // Obtenha a referência ao componente do mapa
       const map = mapRef.current;
       
-      // Verifique se a referência ao mapa existe
       if (map) {
         setTimeout(() => {
           map.panTo(position);
