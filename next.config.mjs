@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/cinema-rua",
-  output: "export",
-  reactStrictMode: true,
+  output: "export"
 };
 
 export default nextConfig;
