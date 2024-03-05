@@ -43,10 +43,7 @@ export default function Map() {
       <MapContainer 
         ref={mapRef}
         center={position} 
-        zoom={8} 
-        // scrollWheelZoom={false}
-        // dragging={false}
-        // doubleClickZoom={false}
+        zoom={8}
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer

@@ -5,30 +5,46 @@ import styles from "./styles.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel as ReactCarousel }  from 'react-responsive-carousel';
 
-const carouselImages = new Array(8).fill(null).map((_, i) => `./images/carousel/carousel-${i+1}.png`)
+export interface CarouselProps {
+  images: string[];
+  autoPlay: boolean;
+  showArrows?: boolean;
+  showIndicators?: boolean;
+  height?: string;
+}
 
-export default function Carousel () {
+export default function Carousel ({
+  images,
+  autoPlay,
+  showArrows,
+  showIndicators,
+  height
+}: CarouselProps) {
   return (
     <div className={styles.container}>
       <ReactCarousel
         className={styles.carousel}
         infiniteLoop
-        autoPlay
+        autoPlay={autoPlay}
         axis='horizontal'
         swipeable={false}
-        showArrows={false}
+        showArrows={showArrows}
         showStatus={false}
         showThumbs={false}
         stopOnHover={false}
-        showIndicators={false}
+        showIndicators={showIndicators}
         useKeyboardArrows={false}
         dynamicHeight={false}
       >
           {
-            carouselImages.map((imageSrc, index) => {
+            images.map((imageSrc, index) => {
               return (
                 <div key={index}>
-                  <img src={imageSrc} className={styles['carousel-img']}/>
+                  <img 
+                    src={imageSrc} 
+                    className={styles['carousel-img']} 
+                    style={{"height": `${height || "inherit"}`}}
+                  />
                 </div>
               )
             })
