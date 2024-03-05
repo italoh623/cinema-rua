@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.content {
+  color: #000;
+  font-family: var(--sometypeMono-font);
+  font-weight: 400;
+  max-width: 800px;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.quote {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.quote > span {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+.quote > img {
+  width: 20%;
+  max-width: 40px;
+}
+
+.vector {
+  height: calc(400px - 10vw);
+  min-height: 200px;
+  margin-right: 40px;
+}
