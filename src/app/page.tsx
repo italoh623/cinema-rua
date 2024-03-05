@@ -29,6 +29,7 @@ export default function Home() {
           autoPlay 
           showArrows={false} 
           showIndicators={false}
+          height="60vw"
         />
         <SessionImportance />
         <SessionAppreciation />
