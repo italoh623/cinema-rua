@@ -6,7 +6,7 @@ export default function Footer () {
   return (
     <div className={styles.container}>
       <img
-        src="./draws/footer.svg"
+        src="./images/footer/footer.svg"
         className={styles.draw}
       />
       <div className={styles['container-text']}>
