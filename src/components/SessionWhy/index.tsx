@@ -15,7 +15,7 @@ export default function SessionWhy() {
           <p>Para que isso ocorra, além da participação popular, também é preciso que haja recursos públicos para preservar e financiar essas ferramentas culturais. Desde incentivos fiscais até políticas de revitalização urbana, é fundamental que todos os níveis de governo se unam para garantir que os cinemas de rua não se apaguem por completo.</p>
         </section>
       </div>
-        {/* <img className={styles.image} src="./draws/ornamento.svg" alt="" /> */}
+      <img className={styles.image} src="./images/session-why/ornamento.svg" alt="" />
     </div>
   )
 }
