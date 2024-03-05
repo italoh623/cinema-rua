@@ -7,6 +7,7 @@ import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import SessionAppreciation from "@/components/SessionAppreciation";
 import SessionWhy from "@/components/SessionWhy";
+import SessionAffection from "@/components/SessionAffection";
 import SessionPanorama from "@/components/SessionPanorama";
 
 import styles from "./page.module.css";
@@ -32,6 +33,7 @@ export default function Home() {
         <SessionImportance />
         <SessionAppreciation />
         <SessionWhy />
+        <SessionAffection />
         <SessionPanorama />
         <Map />
       </main>
