@@ -28,7 +28,7 @@ export default function SessionAppreciation() {
           <p>É necessário refletir, dada a importância do cinema de rua, sobre como construir e incorporar esse tipo de cinema ao tecido urbano e à vida da cidade atual. A lógica do cinema de rua não envolve a lógica comercial, na realidade, cumpre um papel em termos ambientais, econômicos e culturais. A característica mais particular é a de possibilitar o conhecimento e trazer sessões que dialoguem com o público de modo acessível e democrático.</p>        
         </section>
 
-        <section className={styles.author}>
+        <section className={styles.author} id="appreciation">
           <h1 className={styles.title}>A VALORIZAÇÃO DOS CINEMAS DE RUA</h1>
           <h2>como equipamentos culturais <br /> que preservam a história</h2>
           <h4>Thiago Freire</h4>
