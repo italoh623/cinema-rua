@@ -1,0 +1,89 @@
+.container {
+  z-index: 1;
+  position: relative;
+  top: -10px;
+  
+  border-radius: 80px;
+
+  background-color: #F3E8D5;
+  padding: 50px 100px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.title {
+  font-family: var(--favela-font);
+  color: #2F2012;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-family: var(--favela-font);
+  font-weight: 400;
+  color: #2F2012;
+  text-align: center;
+}
+
+.motivation {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  margin-top: 50px;
+}
+
+.motivation p, .more p {
+  margin-bottom: 35px;
+
+  font-size: 1.75rem;
+  font-family: var(--sometypeMono-font);
+  font-weight: 400;
+  text-align: justify;
+  color: #2F2012;
+}
+
+.motivation span, .more span {
+  font-weight: 700;
+  color: #9B1915;
+}
+
+.image {
+  width: 100%;
+}
+
+.more {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.more h2, .instagram > li {
+  font-size: 3rem;
+  font-family: var(--favela-font);
+  font-weight: 400;
+  color: #2F2012;
+  margin-bottom: 35px;
+}
+
+.instagram > li {
+  list-style-type: none;
+  font-size: 1.4rem;
+  font-family: var(--sometypeMono-font);
+  font-weight: 400;
+  text-align: justify;
+  color: #2F2012;
+  margin-bottom: 2px;
+  text-decoration: underline;
+}

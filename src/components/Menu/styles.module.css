@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.title:hover {
+  cursor: pointer;
+}
+
 .title h1, 
 .title h2 {
   font-family: var(--favela-font);
