@@ -11,6 +11,8 @@ import SessionAffection from "@/components/SessionAffection";
 import SessionPanorama from "@/components/SessionPanorama";
 import SessionAffected from "@/components/SessionAffected";
 import SessionDisappearance from "@/components/SessionDisappearance";
+import SessionRevitalize from "@/components/SessionRevitalize";
+import SessionMore from "@/components/SessionMore";
 
 import styles from "./page.module.css";
 import dynamic from "next/dynamic";
@@ -40,7 +42,9 @@ export default function Home() {
         <SessionPanorama />
         <SessionAffected />
         <SessionDisappearance />
-        <Map />
+        <SessionRevitalize />
+        <SessionMore />
+        {/* <Map /> */}
       </main>
       <Footer />
     </div>

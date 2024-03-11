@@ -30,7 +30,7 @@ export default function Menu() {
           <a className={styles.menuButton} href="#panorama">PANORAMA</a>
         </li>
         <li>
-          <a className={styles.menuButton}>O QUE FAZER?</a>
+          <a className={styles.menuButton} href="#disappearance">O QUE FAZER?</a>
         </li>
         <li>
           <a className={styles.menuButton} onClick={handleClick('/about')}>O PROJETO</a>
