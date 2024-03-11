@@ -99,11 +99,10 @@
 }
 
 .image {
-  width: 115vw;
+  width: 100vw;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  margin-top: 70px;
 }
 
 .reportImage > p {

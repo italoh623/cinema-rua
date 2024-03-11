@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  top: -50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #FFFBF3;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.image {
+  position: relative;
+  top: -80px;
+
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.findOutMore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.findOutMore p {
+  font-size: 1rem;
+  font-family: var(--sometypeMono-font); 
+  font-weight: 400;
+  color: #2F2012;
+}
+
+.findOutMore button {
+  padding: 15px 40px;
+  font-size: 2rem;
+  font-family: var(--sometypeMono-font); 
+  font-weight: 700;
+  color: #2F2012;
+
+  border-radius: 25px;
+
+  background-color: #F3E8D5;
+  border: 0;
+}
+
+.findOutMore button:hover {
+  background-color: #f5e6cc;
+  cursor: pointer;
+}

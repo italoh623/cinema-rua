@@ -18,7 +18,7 @@ const carouselImagesClosed = new Array(2).fill(null).map((_, i) => `./images/car
 export default function SessionPanorama() {
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="panorama">
       <div className={styles.wrapper}>
         <section className={styles.author}>
           <h1 className={styles.title}>PANORAMA DO CINEMA NO PAÍS</h1>
