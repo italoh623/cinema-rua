@@ -130,26 +130,3 @@
 .reportImage > p {
   flex: 1;
 }
-
-.menu {
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-}
-
-.menu > li {
-  list-style-type: none;
-  margin-left: 16px;
-}
-
-.menu > li > button {
-  font-weight: 400;
-  font-size: 0.9375rem;
-  text-align: center;
-  color: #F3E8D5;
-  font-family: var(--sometypeMono-font);
-  
-  background-color: transparent;
-  border: 0;
-}
