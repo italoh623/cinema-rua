@@ -40,6 +40,12 @@
   margin-left: 16px;
 }
 
+.menu > li > a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .menuButton {
   font-weight: 400;
   font-size: 0.9375rem;

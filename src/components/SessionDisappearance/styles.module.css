@@ -20,6 +20,7 @@
 }
 
 .author {
+  text-align: center;
   width: 100%;
 }
 
@@ -85,8 +86,8 @@
 .reportImage > .illustration1 {
   position: relative;
   flex: 1;
-  height: 70vw;
-  max-height: 70vh;
+  height: 50vw;
+  max-height: 50vh;
 }
 
 .reportImage > .saoLuis {
@@ -99,10 +100,11 @@
 }
 
 .image {
-  width: 100vw;
+  width: 115vw;
   position: absolute;
   bottom: 0px;
   left: 0px;
+  margin-top: 70px;
 }
 
 .reportImage > p {
