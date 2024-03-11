@@ -9,6 +9,7 @@ import SessionAppreciation from "@/components/SessionAppreciation";
 import SessionWhy from "@/components/SessionWhy";
 import SessionAffection from "@/components/SessionAffection";
 import SessionPanorama from "@/components/SessionPanorama";
+import SessionAffected from "@/components/SessionAffected";
 
 import styles from "./page.module.css";
 import dynamic from "next/dynamic";
@@ -36,6 +37,7 @@ export default function Home() {
         <SessionWhy />
         <SessionAffection />
         <SessionPanorama />
+        <SessionAffected />
         <Map />
       </main>
       <Footer />
