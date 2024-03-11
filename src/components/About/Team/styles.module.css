@@ -61,3 +61,15 @@
   width: 100%;
   padding: 20px 10px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    padding: 50px 20px;
+  }
+}
