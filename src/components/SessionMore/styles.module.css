@@ -59,3 +59,15 @@
   background-color: #f5e6cc;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 25px 40px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    padding: 25px 20px;
+  }
+}

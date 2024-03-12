@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0.5rem;
+  padding: 3rem 60px;
 }
 
 .container-text {
@@ -20,4 +20,16 @@
 
 .draw {
   height: 200px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 3rem 40px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    padding: 3rem 20px;
+  }
 }

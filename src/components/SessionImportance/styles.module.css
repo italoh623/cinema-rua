@@ -70,3 +70,15 @@
   text-align: justify;
   color: #2F2012;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 25px 40px;
+  }
+}
+
+@media (max-width: 667px) {
+  .container {
+    padding: 25px 20px;
+  }
+}
