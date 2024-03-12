@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
   background-color: #2F2012;
   padding: 25px 60px;
@@ -33,6 +34,7 @@
   flex-direction: row;
 
   align-items: center;
+  transition: height .2s;
 }
 
 .menu > li {
@@ -64,6 +66,68 @@
   padding: 10px;
   border-bottom: 2px solid #F3E8D5;
   border-radius: 16px;
+}
+
+.menuToggle {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuToggle > img {
+  width: 36px;
+  height: 36px;
+}
+
+@media (min-width: 1000px) {
+  .menuToggle {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title h2 {
+    font-size: 24px;
+  }
+
+  .menu {
+    height: 0px;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+    opacity: 0;
+  }
+
+  .open {
+    height: 360px;
+    padding-top: 20px;
+    opacity: 100;
+  }
+  
+  .menuButton {
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .principal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {

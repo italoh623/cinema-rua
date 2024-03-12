@@ -1,19 +1,30 @@
 "use client";
 
 import styles from "./styles.module.css";
+import { useState } from "react";
+
+
 
 export default function Menu() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleClick = (path: string) => {
     return () => window.location.href = path;
   };
 
   return (
     <menu className={styles.container}>
-      <div className={styles.title} onClick={handleClick('/')}>
-        <h1>CINEMA DE RUA</h1>
-        <h2>DO RECIFE</h2>
+      <div className={styles.principal}>
+        <div className={styles.title} onClick={handleClick('/')}>
+          <h1>CINEMA DE RUA</h1>
+          <h2>DO RECIFE</h2>
+        </div>
+        <button className={styles.menuToggle} onClick={() => setMenuOpen(!menuOpen)}>
+          <img src={`${menuOpen ? "./images/close.svg" : "./images/menu-bar.svg"}`}/>
+        </button>
       </div>
-      <div className={styles.menu}>
+      
+      <div className={[styles.menu, menuOpen ? styles.open : ""].join(' ')}>
         <li>
           <a className={styles.menuButton} onClick={handleClick('/')}>INÍCIO</a>
         </li>
