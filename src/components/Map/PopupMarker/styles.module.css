@@ -2,10 +2,6 @@
   background-color: transparent;
 }
 
-.leaflet-popup-content-wrapper {
-  background-color: transparent;
-}
-
 .popupType {
   position: relative;
   top: 0.5rem;
@@ -18,11 +14,13 @@
 
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
+}
 
-  font-family: var(--sometypeMono-font);
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 0.5rem;
+.popupType p {
+  font-family: var(--sometypeMono-font) !important;
+  font-weight: 700 !important;
+  font-size: 1.125rem !important;
+  line-height: 1rem !important;
 }
 
 .popupTitle {
@@ -31,8 +29,7 @@
   font-family: var(--favela-font);
   font-weight: 400;
   font-size: 1.25rem;
-  /* line-height: 0.75rem; */
-  /* color: #9B1915; */
+  line-height: 0.75rem;
 }
 
 .popupText {
@@ -40,13 +37,8 @@
   padding: 20px 35px;
   margin: 0px;
 
+  width: 350px;
   border-radius: 44px;
-
-  font-family: var(--sometypeMono-font);
-  font-size: 0.75rem;
-  color: var(--black-900);
-  font-weight: 500;
-  text-align: justify;
 
   /* Efeito de elevação */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); /* elevation = 4.dp */
@@ -56,8 +48,14 @@
 
 .popupText p {
   height: 100%;
-  max-height: 300px;
+  max-height: 250px;
   overflow-y: scroll;
+
+  font-family: var(--sometypeMono-font);
+  color: var(--black-900);
+  font-weight: 500;
+  text-align: justify;
+  font-size: 1rem !important;
 }
 
 .popupText p::-webkit-scrollbar {
@@ -85,17 +83,26 @@
 
 .popupTypeClosed {
   background-color: #F3E8D5;
-  color: #2F2012;
+}
+
+.popupTypeClosed p {
+  color: #2F2012 !important;;
 }
 
 .popupTypeInOperation {
   background-color: #272C61;
-  color: #F3E8D5;
+}
+
+.popupTypeInOperation p {
+  color: #F3E8D5 !important;
 }
 
 .popupTypeNotWorking {
   background-color: #9B1915;
-  color: #F3E8D5;
+}
+
+.popupTypeNotWorking p {
+  color: #F3E8D5 !important;;
 }
 
 .popupTitleClosed {
