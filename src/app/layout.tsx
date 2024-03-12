@@ -3,8 +3,9 @@ import { sometypeMono, favela } from "@/font/font";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nome da Página",
+  title: "Cinema de rua",
   description: "Cinema de rua",
+  assets: "./images/carousel/carousel-1.png"
 };
 
 export default function RootLayout({
