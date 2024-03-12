@@ -19,7 +19,9 @@ export default function Menu() {
           <h1>CINEMA DE RUA</h1>
           <h2>DO RECIFE</h2>
         </div>
-        <img src={`${menuOpen ? "./images/close.svg" : "./images/menu-bar.svg"}`} className={styles.menuToggle} onClick={() => setMenuOpen(!menuOpen)}/>
+        <button className={styles.menuToggle} onClick={() => setMenuOpen(!menuOpen)}>
+          <img src={`${menuOpen ? "./images/close.svg" : "./images/menu-bar.svg"}`}/>
+        </button>
       </div>
       
       <div className={[styles.menu, menuOpen ? styles.open : ""].join(' ')}>
