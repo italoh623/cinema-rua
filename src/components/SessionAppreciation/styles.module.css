@@ -127,6 +127,8 @@
   position: relative;
   left: -100px;
   flex: 1;
+  height: 70vw;
+  max-height: 70vh;
 }
 
 .reportImage > p {

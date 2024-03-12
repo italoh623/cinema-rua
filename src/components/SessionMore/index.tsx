@@ -3,6 +3,10 @@
 import styles from "./styles.module.css";
 
 export default function SessionMore() {
+  const handleClick = (path: string) => {
+    return () => window.location.href = path;
+  };
+
   return (
     <div className={styles.container} id="affection">
       <div className={styles.wrapper}>
@@ -21,7 +25,7 @@ export default function SessionMore() {
 
       <div className={styles.findOutMore}>
         <p>Saiba mais sobre</p>
-        <button>O PROJETO</button>
+        <button onClick={handleClick('/about')}>O PROJETO</button>
       </div>
     </div>
   );

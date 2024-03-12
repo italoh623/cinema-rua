@@ -153,4 +153,8 @@
   .container {
     padding: 25px 20px;
   }
+
+  .reportImage {
+    gap: 80px;
+  }
 }
