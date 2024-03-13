@@ -10,6 +10,8 @@
   font-family: var(--sometypeMono-font);
   font-weight: 400;
   max-width: 800px;
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .description {
@@ -21,7 +23,7 @@
   flex: 1;
   align-items: flex-start;
   gap: 30px;
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 .quote > span {

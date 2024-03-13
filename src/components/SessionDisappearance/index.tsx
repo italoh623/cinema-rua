@@ -33,6 +33,7 @@ export default function SessionDisappearance() {
           <Quote
             description="-Destaca Bárbara."
             quote="Cinemas de rua nasceram de forma privada, é por isso que tivemos tantos[...] Os cinemas que a gente conhece hoje, já associamos como uma responsabilidade do estado, ao patrimônio, das fundações de cultura, de acesso democrático, por que hoje ele está no espaço público, mas isso é uma coisa recente."
+            inverted={true}
           />
         </section>
       </div>

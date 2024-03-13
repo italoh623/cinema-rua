@@ -101,6 +101,7 @@
   font-size: 4rem;
   font-family: var(--favela-font);
   font-weight: 400;
+  text-align: center;
   color: #2F2012;
 }
 
@@ -126,6 +127,12 @@
 
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1050px) {
+  .carouselContainer {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
