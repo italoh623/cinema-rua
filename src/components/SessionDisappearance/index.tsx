@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 export default function SessionDisappearance() {
   return (
-    <div className={styles.container} id="disappearance">
+    <div className={styles.container} id="o-que-fazer">
       <div className={styles.wrapper}>
         <section className={styles.author}>
           <h1>COMO IMPEDIR O SUMIÇO DESTA FERRAMENTA?</h1>

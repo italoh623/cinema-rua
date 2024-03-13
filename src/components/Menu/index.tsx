@@ -2,6 +2,7 @@
 
 import styles from "./styles.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 
 
@@ -26,25 +27,25 @@ export default function Menu() {
       
       <div className={[styles.menu, menuOpen ? styles.open : ""].join(' ')}>
         <li>
-          <a className={styles.menuButton} onClick={handleClick('/')}>INÍCIO</a>
+          <Link className={styles.menuButton} href='/'>INÍCIO</Link>
         </li>
         <li>
-          <a className={styles.menuButton} href="#importance">CINEMA DE RUA</a>
+          <Link className={styles.menuButton} href="/#cinema-de-rua">CINEMA DE RUA</Link>
         </li>
         <li>
-          <a className={styles.menuButton} href="#appreciation">VALORIZAÇÃO</a>
+          <Link className={styles.menuButton} href="/#valorizacao">VALORIZAÇÃO</Link>
         </li>
         <li>
-          <a className={styles.menuButton} href="#affection">AFETIVIDADE</a>
+          <Link className={styles.menuButton} href="/#afetividade">AFETIVIDADE</Link>
         </li>
         <li>
-          <a className={styles.menuButton} href="#panorama">PANORAMA</a>
+          <Link className={styles.menuButton} href="/#panorama">PANORAMA</Link>
         </li>
         <li>
-          <a className={styles.menuButton} href="#disappearance">O QUE FAZER?</a>
+          <Link className={styles.menuButton} href="/#o-que-fazer">O QUE FAZER?</Link>
         </li>
         <li>
-          <a className={styles.menuButton} onClick={handleClick('/about')}>O PROJETO</a>
+          <Link className={styles.menuButton} href='/about'>O PROJETO</Link>
         </li>
       </div>
     </menu>
