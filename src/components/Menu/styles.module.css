@@ -92,11 +92,11 @@
 
 @media (max-width: 1000px) {
   .title h1 {
-    font-size: 36px;
+    font-size: 2rem;
   }
 
   .title h2 {
-    font-size: 24px;
+    font-size: 1.7rem;
   }
 
   .menu {
@@ -114,7 +114,7 @@
   }
   
   .menuButton {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .container {
