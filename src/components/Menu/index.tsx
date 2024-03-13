@@ -15,7 +15,7 @@ export default function Menu() {
   return (
     <menu className={styles.container}>
       <div className={styles.principal}>
-        <div className={styles.title} onClick={handleClick('/')}>
+        <div className={styles.menuTitle} onClick={handleClick('/')}>
           <h1>CINEMA DE RUA</h1>
           <h2>DO RECIFE</h2>
         </div>
