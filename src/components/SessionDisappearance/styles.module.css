@@ -86,8 +86,8 @@
 .reportImage > .illustration1 {
   position: relative;
   flex: 1;
-  height: 50vw;
-  max-height: 50vh;
+  height: 40vw;
+  max-height: 40vh;
 }
 
 .reportImage > .saoLuis {
