@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 export default function SessionAffection() {
   return (
-    <div className={styles.container} id="affection">
+    <div className={styles.container} id="afetividade">
       <div className={styles.wrapper}>
         <section className={styles.author}>
           <h1>AFETIVIDADE</h1>

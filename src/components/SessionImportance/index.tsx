@@ -10,7 +10,7 @@ export default function SessionImportance() {
         <h1 className={styles.title}>OCUPAÇÃO DO ESPAÇO PÚBLICO PELA ÓTICA DO CINEMA EM RECIFE - CULTURA É RESISTÊNCIA!</h1>
         <img className={styles.image} src="./images/cinema.svg" alt="" />
 
-        <section className={styles.author} id="importance">
+        <section className={styles.author} id="cinema-de-rua">
           <h1>CINEMA DE RUA</h1>
           <h2>e sua importância</h2>
           <h4>Beatriz Severo</h4>
