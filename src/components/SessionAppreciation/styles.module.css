@@ -135,9 +135,19 @@
   flex: 1;
 }
 
+@media (max-width: 1050px) {
+  .photo > img {
+    width: 85%;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 25px 40px;
+  }
+
+  .photo > img {
+    width: 95%;
   }
 }
 
