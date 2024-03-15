@@ -19,8 +19,6 @@ export default function SessionMore() {
     };
 
     const observer = new IntersectionObserver(entries => {
-      console.log("AQUI")
-      console.log(entries)
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           setStartAnimation(true);

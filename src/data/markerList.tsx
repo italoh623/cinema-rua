@@ -43,12 +43,12 @@ export const markers: PopupMarkerProps[] = [
     title: "GLÓRIA",
     description: "O  Ccinema Glória foi inaugurado em 04/09/1926,no local onde funcionava o antigo Cinema Popular, na então Praça do Mercado. Considerado um cinema pequeno, distinguia lugares para a 1a e 2a classes. O cinema fez sua última exibição em agosto de 1984. A tela, a cabine de projeção, os portões de ferro e os balcões ainda eram os mesmos da época de sua fundação."
   },
-  {
-    position: [-7.5908469,-35.5070645],
-    type: "SEM FUNCIONAMENTO",
-    title: "SÃO VICENTE",
-    description: "Lorem ipsum dolor sit amet consectetur. Facilisi odio nisl sed interdum nullam maecenas dolor purus. Ultrices posuere sollicitudin neque etiam molestie. Aliquam malesuada enim mauris risus aliquet rutrum mattis. Non turpis tempor nulla egestas enim. Odio justo risus egestas turpis pulvinar felis nulla magna blandit. Est tellus eget blandit dolor leo dolor. "
-  },
+  // {
+  //   position: [-7.5908469,-35.5070645],
+  //   type: "SEM FUNCIONAMENTO",
+  //   title: "SÃO VICENTE",
+  //   description: "Lorem ipsum dolor sit amet consectetur. Facilisi odio nisl sed interdum nullam maecenas dolor purus. Ultrices posuere sollicitudin neque etiam molestie. Aliquam malesuada enim mauris risus aliquet rutrum mattis. Non turpis tempor nulla egestas enim. Odio justo risus egestas turpis pulvinar felis nulla magna blandit. Est tellus eget blandit dolor leo dolor. "
+  // },
   {
     position: [-8.0184734,-34.8564486],
     type: "SEM FUNCIONAMENTO",
