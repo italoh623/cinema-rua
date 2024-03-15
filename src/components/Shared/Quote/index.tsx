@@ -23,8 +23,6 @@ export default function Quote({ quote, description, inverted }: QuoteProps) {
     };
 
     const observer = new IntersectionObserver(entries => {
-      console.log("AQUI")
-      console.log(entries)
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           setStartAnimation(true);
