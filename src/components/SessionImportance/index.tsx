@@ -1,5 +1,6 @@
 'use client';
 
+import Chart from "../Chart";
 import styles from "./styles.module.css";
 
 export default function SessionImportance() {
@@ -9,6 +10,8 @@ export default function SessionImportance() {
       <div className={styles.wrapper}>
         <h1 className={styles.title}>OCUPAÇÃO DO ESPAÇO PÚBLICO PELA ÓTICA DO CINEMA EM RECIFE - CULTURA É RESISTÊNCIA!</h1>
         <img className={styles.image} src="./images/cinema.svg" alt="" />
+
+        {/* <Chart /> */}
 
         <section className={styles.author} id="cinema-de-rua">
           <h1>CINEMA DE RUA</h1>
