@@ -52,7 +52,7 @@
   overflow-y: scroll;
 
   font-family: var(--sometypeMono-font);
-  color: var(--black-900);
+  color: #2F2012 !important;
   font-weight: 500;
   text-align: justify;
   font-size: 1rem !important;
