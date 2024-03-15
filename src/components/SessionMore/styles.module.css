@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  top: -50px;
   
   display: flex;
   flex-direction: column;
@@ -53,6 +52,8 @@
 
   background-color: #F3E8D5;
   border: 0;
+
+  margin-bottom: 50px;
 }
 
 .findOutMore button:hover {
