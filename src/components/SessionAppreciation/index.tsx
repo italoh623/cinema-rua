@@ -14,7 +14,7 @@ export default function SessionAppreciation() {
         
           <p>O cinema de rua resistiu pois mostrou que a cultura é muito mais que entretenimento. Esses espaços são ambientes autênticos e muitas vezes históricos, instrumentos de acesso à cultura porque colaboram com a democratização da comunicação com preços mais acessíveis e filmes que fogem da lógica da exibição comercial.</p>
         
-          <p>O tradicional Cinema São Luiz, no Recife, está fechado há mais de um ano para reforma no sistema de esgoto e no teto da construção. O fechamento é retratado em “Retratos Fantasmas”, de acordo com o próprio Kleber Mendonça Filho. Segundo a Folha de Pernambuco, a governadora Raquel Lyra disse à imprensa que o cinema será reaberto em 2024, mas não entrou em detalhes em que momento do próximo ano. <span>Enquanto isso, esperamos</span>.</p>
+          <p>O tradicional Cinema São Luiz, no Recife, está fechado há mais de um ano para reforma no sistema de esgoto e no teto da construção. O fechamento é retratado em “Retratos Fantasmas”, de acordo com o próprio Kleber Mendonça Filho. A REABERTURA DO CINEMA ESTÁ PREVISTA PARA 2024. ENQUANTO ISSO, ESPERAMOS.</p>
         </section>
 
         <div className={styles.photo}>
@@ -23,7 +23,7 @@ export default function SessionAppreciation() {
         </div>
 
         <section className={styles.report}>
-          <p>Recife já foi uma “Hollywood Brasileira” na década de 1920. O período conhecido como “Ciclo do Recife”. O próprio “Retratos Fantasmas”, a partir das salas de cinema, fala sobre a relação das pessoas com as mudanças urbanas que aconteceram no Recife. Os cinemas de rua dão espaço para a produção local e para experimentações no campo audiovisual, abrindo portas para além das histórias que Hollywoodianas.</p>
+          <p>Recife já foi uma “Hollywood brasileira” na década de 1920, período que ficou conhecido como “Ciclo do Recife”. O próprio “Retratos Fantasmas”, a partir das salas de cinema, fala sobre a relação das pessoas com as mudanças urbanas que aconteceram no Recife. Os cinemas de rua dão espaço para a produção local e para experimentações no campo audiovisual, abrindo portas para além das histórias hollywoodianas.</p>
 
           <p>É necessário refletir, dada a importância do cinema de rua, sobre como construir e incorporar esse tipo de cinema ao tecido urbano e à vida da cidade atual. A lógica do cinema de rua não envolve a lógica comercial, na realidade, cumpre um papel em termos ambientais, econômicos e culturais. A característica mais particular é a de possibilitar o conhecimento e trazer sessões que dialoguem com o público de modo acessível e democrático.</p>        
         </section>
