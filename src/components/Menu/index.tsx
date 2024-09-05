@@ -18,7 +18,7 @@ export default function Menu() {
       <div className={styles.principal}>
         <div className={styles.menuTitle} onClick={handleClick('/')}>
           <h1>CINEMA DE RUA</h1>
-          <h2>DO RECIFE</h2>
+          <h2>DE PERNAMBUCO</h2>
         </div>
         <button className={styles.menuToggle} onClick={() => setMenuOpen(!menuOpen)}>
           <img src={`${menuOpen ? "./images/close.svg" : "./images/menu-bar.svg"}`}/>
