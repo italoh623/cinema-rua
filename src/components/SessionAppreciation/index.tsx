@@ -14,7 +14,7 @@ export default function SessionAppreciation() {
         
           <p>O cinema de rua resistiu pois mostrou que a cultura é muito mais que entretenimento. Esses espaços são ambientes autênticos e muitas vezes históricos, instrumentos de acesso à cultura porque colaboram com a democratização da comunicação com preços mais acessíveis e filmes que fogem da lógica da exibição comercial.</p>
         
-          <p>O tradicional Cinema São Luiz, no Recife, está fechado há mais de um ano para reforma no sistema de esgoto e no teto da construção. O fechamento é retratado em “Retratos Fantasmas”, de acordo com o próprio Kleber Mendonça Filho. A REABERTURA DO CINEMA ESTÁ PREVISTA PARA 2024. ENQUANTO ISSO, ESPERAMOS.</p>
+          <p>O tradicional Cinema São Luiz, no Recife, está fechado há mais de um ano para reforma no sistema de esgoto e no teto da construção. O fechamento é retratado em “Retratos Fantasmas”, de acordo com o próprio Kleber Mendonça Filho. A reabertura do cinema está prevista para 2024. Enquanto isso, esperamos.</p>
         </section>
 
         <div className={styles.photo}>
